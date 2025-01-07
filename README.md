@@ -17,12 +17,12 @@ You can rename the project and update the namespaces to suit your requirements.
 ## Key Highlights
 
 - [x] Easily define IOC Container with the `IocContainerItem` attribute
-- ![IocContainerItem](Assets/1.png)
+  ![IocContainerItem](Assets/1.png)
 
 - [x] Easily add database models with the `DbObject` attribute
-- ![DbObject](Assets/2.png)
+  ![DbObject](Assets/2.png)
 
 - [x] Customize the dynamic response structure to make your project more efficient
-- [x] ![JsonResponse](Assets/3.png) ![JsonResponse](Assets/4.png)
+  ![JsonResponse](Assets/3.png) ![JsonResponse](Assets/4.png)
 
 - [x] Switch between MemoryCache and Redis via the `appsettings` configuration
