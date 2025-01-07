@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{5E0A8DF7-4529-48DE-8FF5-670E12DCE545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBase.Api", "ProjectBase.Api\ProjectBase.Api.csproj", "{8121684E-F07E-446F-ACD8-F69D2B821662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layer", "Layer", "{747ECD67-DD6E-41F4-AE5F-8EFEEB26C994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBase.Data", "ProjectBase.Data\ProjectBase.Data.csproj", "{7E90E0B9-65AB-447E-A43A-02FAB2B5D22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBase.Core", "ProjectBase.Core\ProjectBase.Core.csproj", "{DDDA6CDD-FA7E-4537-AB2A-2EB45F158FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBase.Entity", "ProjectBase.Entity\ProjectBase.Entity.csproj", "{CCD7588B-E986-4D64-AA2E-A5D71E6AB563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBase.Business", "ProjectBase.Business\ProjectBase.Business.csproj", "{96DB7CDC-6DFE-4338-8FC3-AC89B714E855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBase.DTO", "ProjectBase.DTO\ProjectBase.DTO.csproj", "{22F4625A-235E-4ECA-8D7C-295B04596F1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8121684E-F07E-446F-ACD8-F69D2B821662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8121684E-F07E-446F-ACD8-F69D2B821662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8121684E-F07E-446F-ACD8-F69D2B821662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8121684E-F07E-446F-ACD8-F69D2B821662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E90E0B9-65AB-447E-A43A-02FAB2B5D22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E90E0B9-65AB-447E-A43A-02FAB2B5D22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E90E0B9-65AB-447E-A43A-02FAB2B5D22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E90E0B9-65AB-447E-A43A-02FAB2B5D22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDA6CDD-FA7E-4537-AB2A-2EB45F158FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDA6CDD-FA7E-4537-AB2A-2EB45F158FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDA6CDD-FA7E-4537-AB2A-2EB45F158FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDA6CDD-FA7E-4537-AB2A-2EB45F158FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD7588B-E986-4D64-AA2E-A5D71E6AB563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD7588B-E986-4D64-AA2E-A5D71E6AB563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD7588B-E986-4D64-AA2E-A5D71E6AB563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD7588B-E986-4D64-AA2E-A5D71E6AB563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DB7CDC-6DFE-4338-8FC3-AC89B714E855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DB7CDC-6DFE-4338-8FC3-AC89B714E855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DB7CDC-6DFE-4338-8FC3-AC89B714E855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DB7CDC-6DFE-4338-8FC3-AC89B714E855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F4625A-235E-4ECA-8D7C-295B04596F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F4625A-235E-4ECA-8D7C-295B04596F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F4625A-235E-4ECA-8D7C-295B04596F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F4625A-235E-4ECA-8D7C-295B04596F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8121684E-F07E-446F-ACD8-F69D2B821662} = {5E0A8DF7-4529-48DE-8FF5-670E12DCE545}
+		{7E90E0B9-65AB-447E-A43A-02FAB2B5D22E} = {747ECD67-DD6E-41F4-AE5F-8EFEEB26C994}
+		{DDDA6CDD-FA7E-4537-AB2A-2EB45F158FCA} = {747ECD67-DD6E-41F4-AE5F-8EFEEB26C994}
+		{CCD7588B-E986-4D64-AA2E-A5D71E6AB563} = {747ECD67-DD6E-41F4-AE5F-8EFEEB26C994}
+		{96DB7CDC-6DFE-4338-8FC3-AC89B714E855} = {747ECD67-DD6E-41F4-AE5F-8EFEEB26C994}
+		{22F4625A-235E-4ECA-8D7C-295B04596F1A} = {747ECD67-DD6E-41F4-AE5F-8EFEEB26C994}
+	EndGlobalSection
+EndGlobal
