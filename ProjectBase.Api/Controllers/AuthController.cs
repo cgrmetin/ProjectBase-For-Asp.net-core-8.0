@@ -68,7 +68,7 @@ namespace ProjectBase.Api.Controllers
 
             var response = await _authenticaionJWtService.RegistrationAsync(dto);
 
-            return Ok(response);
+            return JsonResponse(response);
 
         }
 
